@@ -110,6 +110,9 @@ void main()
     init_timer();
     init_buzzer();
     buzzer_play_times(&mBuzzer,4000,1000,4);
-    while(1);
+    while(1)
+    {
+        delay(100);
+    }
 }
 ```
